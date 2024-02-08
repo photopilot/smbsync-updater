@@ -16,8 +16,8 @@ LOG_LEVEL=
 
 
 # Initial versions
-[windows-386.exe](https://cdn.photopilot.ai/windows-386.exe)   
-[windows-amd64.exe](https://cdn.photopilot.ai/windows-amd64.exe)   
+[windows-386.exe](https://cdn.photopilot.ai/windows-386.exe?v=2)   
+[windows-amd64.exe](https://cdn.photopilot.ai/windows-amd64.exe?v=2)    
    
-[darwin-amd64](https://cdn.photopilot.ai/darwin-amd64)   
-[darwin-arm64](https://cdn.photopilot.ai/darwin-arm64)   
+[darwin-amd64](https://cdn.photopilot.ai/darwin-amd64?v=2)    
+[darwin-arm64](https://cdn.photopilot.ai/darwin-arm64?v=2)     
