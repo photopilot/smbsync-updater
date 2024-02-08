@@ -13,3 +13,11 @@ API_TOKEN=
 API_URL=
 LOG_LEVEL=
 ```
+
+
+# Initial versions
+[windows-386.exe](https://cdn.photopilot.ai/windows-386.exe)
+[windows-amd64.exe](https://cdn.photopilot.ai/windows-amd64.exe)
+
+[darwin-amd64](https://cdn.photopilot.ai/darwin-amd64)
+[darwin-arm64](https://cdn.photopilot.ai/darwin-arm64)
