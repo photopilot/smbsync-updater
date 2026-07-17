@@ -36,11 +36,10 @@ TZ=Europe/Amsterdam
   shoot for that set.
 - **Packshots** — every other folder is treated as an article identifier: a
   scanned **EAN/barcode** (e.g. `8712345678906`) or a **public article ID**
-  (e.g. `12345-001`, an optional `P-` prefix is stripped). The article must
-  already exist in Photopilot; unknown folders are skipped and retried every
-  15 minutes. Within a packshot folder, images with `back`, `side` or `label`
-  in the filename are attached as that view; every other image becomes the
-  front image of its own packshot job.
+  (e.g. `12345-001`). The article must already exist in Photopilot; unknown
+  folders are skipped and retried every 15 minutes. Within a packshot folder,
+  images with `back`, `side` or `label` in the filename are attached as that
+  view; every other image becomes the front image of its own packshot job.
 
 A folder is only synced after it has been untouched for 10 minutes, so the
 photographer can finish shooting first. After a successful sync the files and

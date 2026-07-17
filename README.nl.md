@@ -39,12 +39,11 @@ TZ=Europe/Amsterdam
   geüpload als shoot voor die set.
 - **Packshots** — elke andere map wordt behandeld als artikel-identifier: een
   gescande **EAN/barcode** (bijv. `8712345678906`) of een **publiek
-  artikel-ID** (bijv. `12345-001`, een optionele `P-`-prefix wordt
-  verwijderd). Het artikel moet al in Photopilot bestaan; onbekende mappen
-  worden overgeslagen en elke 15 minuten opnieuw geprobeerd. Binnen een
-  packshot-map worden afbeeldingen met `back`, `side` of `label` in de
-  bestandsnaam als die weergave meegestuurd; elke andere afbeelding wordt de
-  vooraanzicht-foto van een eigen packshot-opdracht.
+  artikel-ID** (bijv. `12345-001`). Het artikel moet al in Photopilot
+  bestaan; onbekende mappen worden overgeslagen en elke 15 minuten opnieuw
+  geprobeerd. Binnen een packshot-map worden afbeeldingen met `back`, `side`
+  of `label` in de bestandsnaam als die weergave meegestuurd; elke andere
+  afbeelding wordt de vooraanzicht-foto van een eigen packshot-opdracht.
 
 Een map wordt pas gesynchroniseerd nadat er 10 minuten niets is gewijzigd,
 zodat de fotograaf eerst kan uitfotograferen. Na een succesvolle synchronisatie
