@@ -12,13 +12,12 @@ fotomappen naar Photopilot.
 > één keer handmatig de nieuwste versie volgens de stappen hieronder; daarna
 > gaat het vanzelf.
 
-1. Download de binary voor jouw platform van de
-   [**laatste release**](https://github.com/photopilot/smbsync-updater/releases/latest)
-   (niet uit de map `smbsync/` in deze repo — die stopt bij v25):
-   - `windows-amd64.exe` — Windows 64-bit (meest gebruikt, ondertekend)
-   - `windows-386.exe` — Windows 32-bit
-   - `darwin-arm64` / `darwin-amd64` — macOS (Apple Silicon / Intel)
-   - `linux-amd64` / `linux-arm64` — Linux
+1. Download de binary voor jouw platform. Deze links wijzen altijd naar de
+   [**laatste release**](https://github.com/photopilot/smbsync-updater/releases/latest):
+   - [`windows-amd64.exe`](https://github.com/photopilot/smbsync-updater/releases/latest/download/windows-amd64.exe) — Windows 64-bit (meest gebruikt, ondertekend)
+   - [`windows-386.exe`](https://github.com/photopilot/smbsync-updater/releases/latest/download/windows-386.exe) — Windows 32-bit
+   - [`darwin-arm64`](https://github.com/photopilot/smbsync-updater/releases/latest/download/darwin-arm64) / [`darwin-amd64`](https://github.com/photopilot/smbsync-updater/releases/latest/download/darwin-amd64) — macOS (Apple Silicon / Intel)
+   - [`linux-amd64`](https://github.com/photopilot/smbsync-updater/releases/latest/download/linux-amd64) / [`linux-arm64`](https://github.com/photopilot/smbsync-updater/releases/latest/download/linux-arm64) — Linux
 2. Zet de binary in een **eigen map** (bijv. `C:\smbsync\`) en hernoem hem
    naar `smbsync.exe`. De map moet schrijfbaar zijn voor het account waaronder
    smbsync draait: het logbestand en de self-update schrijven daar.
@@ -114,5 +113,5 @@ of videobestanden blijven staan).
 
 Releases worden automatisch gebouwd, ondertekend en hier gepubliceerd zodra er
 een wijziging in `smbsync/` op `main` van de Photopilot-monorepo landt. Het
-versienummer is de laatste release + 1. De map `smbsync/` in deze repo bevat
-alleen nog de oude versies t/m v25.
+versienummer is de laatste release + 1. Alleen de laatste release blijft staan;
+oudere versies worden verwijderd zodat niemand die per ongeluk installeert.

@@ -11,13 +11,12 @@ SMB share (e.g. a StyleShoots machine) and syncs photo folders to Photopilot.
 > Install the latest version manually once, using the steps below; after that
 > it takes care of itself.
 
-1. Download the binary for your platform from the
-   [**latest release**](https://github.com/photopilot/smbsync-updater/releases/latest)
-   (not from the `smbsync/` folder in this repo — that stops at v25):
-   - `windows-amd64.exe` — Windows 64-bit (most common, signed)
-   - `windows-386.exe` — Windows 32-bit
-   - `darwin-arm64` / `darwin-amd64` — macOS (Apple Silicon / Intel)
-   - `linux-amd64` / `linux-arm64` — Linux
+1. Download the binary for your platform. These links always point at the
+   [**latest release**](https://github.com/photopilot/smbsync-updater/releases/latest):
+   - [`windows-amd64.exe`](https://github.com/photopilot/smbsync-updater/releases/latest/download/windows-amd64.exe) — Windows 64-bit (most common, signed)
+   - [`windows-386.exe`](https://github.com/photopilot/smbsync-updater/releases/latest/download/windows-386.exe) — Windows 32-bit
+   - [`darwin-arm64`](https://github.com/photopilot/smbsync-updater/releases/latest/download/darwin-arm64) / [`darwin-amd64`](https://github.com/photopilot/smbsync-updater/releases/latest/download/darwin-amd64) — macOS (Apple Silicon / Intel)
+   - [`linux-amd64`](https://github.com/photopilot/smbsync-updater/releases/latest/download/linux-amd64) / [`linux-arm64`](https://github.com/photopilot/smbsync-updater/releases/latest/download/linux-arm64) — Linux
 2. Place the binary in **its own folder** (e.g. `C:\smbsync\`) and rename it
    to `smbsync.exe`. The folder must be writable for the account smbsync runs
    as: the log file and the self-update write there.
@@ -110,5 +109,5 @@ files are left in place).
 
 Releases are built, signed and published here automatically whenever a change
 to `smbsync/` lands on `main` of the Photopilot monorepo. The version number is
-the latest release + 1. The `smbsync/` folder in this repo only holds the old
-versions up to v25.
+the latest release + 1. Only the latest release is kept; older versions are
+removed so nobody installs them by accident.
